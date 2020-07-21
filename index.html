@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>JIA's IT161 Portal Website</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+ </head>
+ <body>
+     <header>
+     <h1>Jia's IT161 Website</h1>
+     <nav class="topnav" id="myTopnav">
+       <a href="index.html" class="active">Welcome</a>
+       <a href="elements.html">HTML Elements</a>
+       <a href="aia.html">AIA</a>
+       <a href="big/index.html">BIG</a>
+       <a href="http://w3schools.com" target="_blank">W3 Schools</a>
+       <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
+       <a href="flowchart.html">Flowchart</a>
+       <a href="fp/index.html">Final Project</a>
+       <a href="contact.php">Contact Jia</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+     </nav>
+     </header>
+     
+   <div class="wrapper">
+     
+     <img class="desktop" src="images/desktop.jpg" alt="Photo my puppy" />
+       
+     <img class="tablet" src="images/tablet.jpg" alt="Photo of me" />
+       
+     <img class="phone" src="images/phone.jpg" alt="Photo of an art that I painted it" />
+       
+       <h2 class="subheader">A little about me!</h2>
+       
+       <p>Hello everyone! My name is JiaJun Huang, and I am go by Jia. I come from China, and I have been U.S. for 7 years. My hobbie is bowling. Usually, I go to play every weekend, but I didn't play bowling for a month because of the COVID-19. I will take the web 161 class because I am interested about the web development, and I need this class for the B.A.S. application development program.</p>
+       
+     <footer>
+      <p><small>&copy; 2020 by <a href="contact.php">JiaJun Huang</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+    </footer>
+  </div>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+ </script>
+     
+ </body>
+</html>
